@@ -9,6 +9,8 @@ void serialSetup()
 {
   Serial.begin(9600);
   Serial.println("=== I R R I G A ===");
+  Serial.println("Example: +s 00.00.02 07:30");
+  Serial.println("Example: +s INDEX.DOW.DURATION HH:MM");
   debug("DEBUG ENABLED");
 }
 

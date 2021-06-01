@@ -129,5 +129,6 @@ void printAlarms(){
     Serial.print(alarms[i].duration);
     Serial.print(" ");
     Serial.println(HumanDOW[alarms[i].dow]);
+    free(out);
   }
 }
